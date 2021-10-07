@@ -189,22 +189,6 @@ var createQuestions = function () {
     // Clear out any old question choices.
     document.querySelector(".choices-list").innerHTML = "";
 
-    // Alternative Method:
-    /*
-        for (var i = 0; i < questionsArray[questionsArrayIndex].choices.length; i++) {
-
-            // create button for each choice.
-            var optionButton = document.createElement("button");
-            optionButton.classList.add("choice-btn", "btn", "btn-primary", );
-            optionButton.setAttribute("index-location", "questionsArray[questionsArrayIndex].choices[i]");
-            optionButton.textContent = questionsArray[questionsArrayIndex].choices[i];
-
-            // Add event listener to each button.
-            optionButton.addEventListener("click", checkAnswer);
-
-            // Append button element to ul.
-            document.querySelector(".choices-list").appendChild(optionButton);
-        }*/
 
     questionsArray[questionsArrayIndex].choices.forEach(function (choice, i) {
 
