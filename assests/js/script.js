@@ -25,14 +25,14 @@ var questionsArray = [{
         answer: "All of the above"
     },
     {
-        question: "Inside which HTML <> element do we put the JavaScript?",
-        choices: ["scripting", "javascript", "js", "script"],
-        answer: "script"
+        question: "What does event.preventDefault() do?",
+        choices: ["It stops the browser from reloading the page upon a form submission.", "It stops the browser from allowing the form submission event to occur. "],
+        answer: "It stops the browser from reloading the page upon a form submission."
     },
     {
-        question: "The external JavaScript file must contain the <script> tag.",
-        choices: ["true", "false"],
-        answer: "false"
+        question: "The browser event 'SUBMIT' allows us to do the following:",
+        choices: ["Submit a form using a button.", "Submit a form using the Enter key.", "Submit a form using both a button and the Enter key."],
+        answer: "Submit a form using both a button and the Enter key."
     },
     {
         question: "How do you declare a JavaScript variable?",
