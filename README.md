@@ -3,5 +3,4 @@ As a coding boot camp student, I wanted to make a timed quiz on JavaScript funda
 
 Deployed website https://todd1terry1.github.io/coding-quiz/
 
--
-https://www.sourcecodester.com/sites/default/files/images/may_ann/quiz.JPG
+
