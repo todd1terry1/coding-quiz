@@ -15,16 +15,6 @@ var questionsArray = [{
         answer: "false"
     },
     {
-        question: "A useful tool used during development and debugging for printing content to the debugger is? ",
-        choices: ["JavaScript", "terminal/bash", "for loops", "console.log"],
-        answer: "console.log"
-    },
-    {
-        question: "Arrays in JavaScript can be used to store?",
-        choices: ["Numbers", "Strings", "Booleans", "All of the above"],
-        answer: "All of the above"
-    },
-    {
         question: "What does event.preventDefault() do?",
         choices: ["It stops the browser from reloading the page upon a form submission.", "It stops the browser from allowing the form submission event to occur. "],
         answer: "It stops the browser from reloading the page upon a form submission."
@@ -41,13 +31,8 @@ var questionsArray = [{
     },
     {
         question: "Which of these values is NOT considered false?",
-        choices: ["0", "Zero within quotes", "null", "double quotes"],
-        answer: "Zero within quotes"
-    },
-    {
-        question: "What will the following code return: Boolean(3 > 2)",
-        choices: ["false", "true", "undefined", "null"],
-        answer: "true"
+        choices: ["0", "0 within double quotes", "null", "double quotes"],
+        answer: "0 within double quotes"
     },
     {
         question: "Is JavaScript case-sensitive?",
@@ -58,6 +43,21 @@ var questionsArray = [{
         question: "What does DOM stand for?",
         choices: ["Dissolved Organic Matter", "Dissolved Organic Matter", "Document Object Model", "Disk on Module"],
         answer: "Document Object Model"
+    },
+    {
+        question: "What will the following code return: Boolean(3 > 2)",
+        choices: ["false", "true", "undefined", "null"],
+        answer: "true"
+    },
+    {
+        question: "A useful tool used during development and debugging for printing content to the debugger is? ",
+        choices: ["JavaScript", "terminal/bash", "for loops", "console.log"],
+        answer: "console.log"
+    },
+    {
+        question: "Arrays in JavaScript can be used to store?",
+        choices: ["Numbers", "Strings", "Booleans", "All of the above"],
+        answer: "All of the above"
     },
 ];
 
