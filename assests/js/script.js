@@ -40,12 +40,12 @@ var questionsArray = [{
         answer: "var carName"
     },
     {
-        question: "Which operator is used to assign a value to a variable?",
-        choices: ["+", "-", "*", "="],
-        answer: "="
+        question: "Which of these values is NOT considered false?",
+        choices: ["0", "Zero within quotes", "null", "double quotes"],
+        answer: "Zero within quotes"
     },
     {
-        question: "What will the following code return: Boolean(10 > 9)",
+        question: "What will the following code return: Boolean(3 > 2)",
         choices: ["false", "true", "undefined", "null"],
         answer: "true"
     },
