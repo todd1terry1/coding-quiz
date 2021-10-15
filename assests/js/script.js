@@ -10,19 +10,19 @@ var inputInitial = document.querySelector(".input-initial");
 var formEl = document.querySelector("#initial-form");
 var totalUserHighScores = [];
 var questionsArray = [{
-        question: "JavaScript does not need camel casing to function correctly.",
+        question: "JavaScript does not need camel casing to function correctly?",
         choices: ["true", "false"],
         answer: "false"
     },
     {
-        question: "Which built-in method adds one or more elements to the end of an array and returns the new length of the array? ",
-        choices: ["last()", "put()", "push()", "None of the above"],
-        answer: "push()"
+        question: "A useful tool used during development and debugging for printing content to the debugger is? ",
+        choices: ["JavaScript", "terminal/bash", "for loops", "console.log"],
+        answer: "console.log"
     },
     {
-        question: "Which built-in method returns the string representation of the number's value?",
-        choices: ["toValue()", "toNumber()", "toString()", "None of the above."],
-        answer: "toString()"
+        question: "Arrays in JavaScript can be used to store?",
+        choices: ["Numbers", "Strings", "Booleans", "All of the above"],
+        answer: "All of the above"
     },
     {
         question: "Inside which HTML <> element do we put the JavaScript?",
